@@ -1,0 +1,202 @@
+---
+title: "Datapalooza Report"
+output:
+  html_document:
+    df_print: paged
+---
+
+####Name: Zoe Sawyer
+####Event: Datapalooza 2018
+####Date and Time: 11/09/2018, 8:00 AM - 5:00 PM
+
+#Part 1: Fireside Chat
+
+##Speaker Names and Affiliations:
+####1. Jim Ryan, U.Va President
+####2. Philip Bourne, Director of the Data Science Institute and Professor of Biomedical Engineering, U.Va
+
+##Summary
+####Phil opened Datapalooza by giving a brief general overview of the history of data science and introducing President Ryan. He described several "paradigms" of data science thus far. The first paradigm was approximately 2000 years of science driven by observations. The second paradigm, approximately 70 years ago, was mathematically modeling the environment. The third paradigm is computation. Lastly, the fourth paradigm, which is happening today, is a data-driven one. This shows that there is an exponential increase in the complexity and use of data science. Now, the question for Jim Ryan to touch on is how the university responds to the development of this fourth data-driven paradigm and uses it to maximize social benefit.
+
+####Moving to the fireside chat, President Ryan came to sit on stage beside Phil and discuss data science as it pertains to the University of Virginia. President Ryan opened with discussing the visioning process of the University's use of data. This intersection of UVA and data science is enabled by a website built by UVA called "ours to shape" and a special team of people that were assembled to develop a strategic plan for how UVA can best utilize data. In their early observations, they identified that we need to move toward establishing UVA as the nation's flagship university. It is already Virginia's flagship university, but to achieve this higher level it would need to solidify its embodiment of the best higher education as well as its reputation as a world-class institution with a purpose to serve others. There are three themes in achieving these goals. The first is community, which involves creating the best educational experience while strengthening ties with the surrounding communities. The second is discovery, such that the University must foster the discovery of new knowledge. And the third is service, which highlights the importance of serving Virginia and beyond as well as preparing students to do service.
+
+####Given this information, President Ryan then briefly described the direction the University is looking toward in using data science. Because university can utilize the expertise of cross-disciplinary individuals to solve problems, there is much potential for the University to do a better job of using the data that exists within the University to improve things. UVA has a LOT of data, and if it is utilized in the correct way we can and will be a data-driven university. This is of utmost importance to the Data Science Institute: UVA cannot instruct students on how to be data-driven if the university itself is not data-driven.
+
+####Phil elaborated on this idea, saying that the existing university structure is tree-like if you map out all of the people involved due to the hierarchy and relationships that exist between people and groups within UVA. But, data science is a network that cuts across this structure because it is an aggregate of other subjects and disciplines.
+
+####President Ryan then responded by discussing the organization of the University, saying that the puzzle of higher education is being organized in the best way possible. UVA has pan-university institutes like the DSI, and the way UVA is currently organized is not sufficient to enable growth and collaboration. In the DSI, faculty that work for or teach at the DSI are also connected to other schools and departments within UVA, which is good, but not easy for them. The important challenge to realize here is reconciling the desire of UVA faculty to work across different disciplines but still maintain strong departments.
+
+####President Ryan also highlighted some of the uses of data science in education, saying that data science is powerful when used in education because mining and analyzing data has the potential to unlock insights that are not available otherwise. One example that has been enacted in high schools is using data science to detect early signs that a student will not do well in school so that this can be caught early on and preventative measures can be taken. This is a good example of effectively translating data findings into action, but it is not always this clear.
+
+####Phil and President Ryan also discussed the importance of public-private relationships. UVA is a public school. It is not always beneficial for UVA to form relationships with private sectors, especially ones that do not align with UVA's goal to serve the public good. However, some public-private partnerships can be perfect for supporting this goal. Relating this back to data science, having partnerships in the private sector is good as long as both parties are clear and in agreeance about their goals and objectives.
+
+####Phil also brought the importance of the effects of public versus private sectors on data publicity. So much data is public, and many people practice openness when working with data by data as it is collected. After data is generated, it is published without delay for processing or analysis. This makes it immediately publically accessible. The caveat here is openness in the public sector is more common than in the private sector. But UVA, although it is in the public sector, upholds the Jeffersonian principle of creating an open environment.
+
+####President Ryan continued with this idea by relating openness to the values of the university and speaking on the biggest obstacles from getting accessible data. To achieve making all data open and accessible, there needs to be a cultural change that is at least partly driven by the public. Sometimes it is driven by the funding agencies, who can make it a requirement to make data available (although this is not well enforced).  Regardless, there needs to be a carefully thought out business model for everything we do. Most importantly, this business model must be sustainable by being dynamic since the world of data science is always changing. Within the private sector, data is often less accessible because commercial value is more of a concern. If more is done in the open, it could reach a point where the opportunity is lost to effectively monetize something that drives the process forward.
+
+##Conclusion
+####In conclusion, this discussion highlighted the benefit of the DSI being located in a broader university, which is getting the cross-current of disciplines. And, it is important to have the right leadership and strategy to support the data mining, sharing, and analyzing by having people who support the new technology that gets brought in. In UVA's strategy of data use and data governance, it is most critical to maximize UVA's success in using the data by having it accessible and using it ethically.
+
+##Questions
+####President Ryan is obviously very knowledgeable and highly qualified to be the president of UVA. However, I think some of his answers were over-general for the purpose of the talk. On some points, he answered more in the style of a politician and kept his response very broad with little detail. This leaves me with questions pertaining to the specifics of UVA's data collection and use. I would like to know what past projects UVA has completed using data science and what the outcomes were. I would also like to know what some current projects are, what type of data is used, how it is collected, and what is the goal of the project to support the University.
+
+
+#Part 2: Research Highlights: Ethics, law, policy, and social implications
+
+##Presenter Names and Affiliations:
+####1. Samuel Lengen, Post-Doctorate Research Associate at the Center for Data Ethics and Justice, Data Science Institute, U.Va
+####2. Stephen Chacha, Co-Founder of Tanzania Data Lab, Mzumbe University, and Agnieszka Rawa, Managing Director, Millennium Challenge Corporation, Stanford University
+####3. Sean Ferguson, STS Professor, U.Va
+
+##Presentation 1: Data Platforms in Contemporary China by Samuel Lengen
+
+###Summary
+####Samuel began his presentation by describing the Chinese company Alibaba and its CEO Jack Ma. Alibaba came to the stock exchange with a record 25 billion several years ago. The company aims to address a certain kind of customer who identifies as a "nobody," meaning who someone who does not think they are special or well-off and ultimately just wants a better life. This leads to the notion that China's internet is made up of so-called "losers." This was an entire movement in the internet space of China, where millions of Chinese were going online and claiming they were losers. They were describing their unsatisfactory jobs, lack of funds to buy a house or car, and inability to start a family or fulfill the other criteria that define a successful life in China.
+
+####Applying this idea to economics makes way for the argument that the Chinese economy is also made up of losers. Alibaba took this idea and thought that since the Chinese market is composed of losers, Alibaba would provide digital platforms that would capture this portion of the Chinese population. Within these platforms, China's losers can create their own opportunity and improve their lives. These platforms can sustain massive data capture projects and connect big data in China to the concept of what a "good life" is considered for a Chinese citizen.
+
+####China also has a history of using data in politics. A 2014 policy outlined China's vision to create a national credit system. The government announced a goal to establish it by 2020. This means that every citizen in China will have a social credit score which assigns them a trustworthiness rating. Therefore, there is an unlimited extent to which data in China will be collected by the government to achieve this. This system stems from the idea that a trustworthiness score may be useful or even necessary because of insecure economic conditions in China, so this will make society more stable if one knows who is trustworthy. But it also brings the ethical debate of the ability of a single government institution to assign this.
+
+###Conclusion
+####In conclusion, it is important to examine a political environment and determine what the citizens envision as a better life. It is also to consider the ethical use of data and ask if the relationship between different spheres of data raises ethical issues. The collection of citizen data by the Chinese government may be unethical because of this. 
+
+###Questions
+####I am curious to know how the Chinese citizens feel about this. I feel like even if you were a perfect citizen, knowing that one slip-up could affect your ability to buy a house, car, food, etc. would be very anxiety-inducing. I think this idea is generally terrifying. But, I am curious to know if alternative situations have been studied. Just like I support publishing the identities of criminals, sex offenders, etc. I think I may be more supportive of a credit score system that only identifies and disadvantages truly untrustworthy people who are below a certain trustworthiness threshold.
+
+
+##Presentation 2: Millenium Challenge Program and the Tanzania Data Lab by Stephen Chacha and Agnieszka Rawa
+
+###Summary
+####The presenters opened with describing the current tragic state of Tanzania youth and education. Two out of three girls in Tanzania drop out of school before they complete their education, and girls are more likely than boys their age to contract HIV. There is a desire to enact a program to build the capacity of the people to address these kinds of problem. But, this program would involve data collection and analysis. In Tanzania and other locations in subsaharan Africa, access to data and tools to clean and analyze it are sparse to the point where data scientists do not exist in these regions. The Millenium Challenge program that Agnieszka works for seeks to change this. Their mission is to empower individuals and communities to use data to improve their lives. This is done by creating a center for data activity to leverage resources and engage with the local people. The goal is to hear the voices of the citizens and enable data sharing. Therefore, a physical space for data activities is critical so people to come together and use data.
+
+####Overall, this intends to put the needs of the people at the center and then add data to it to help solve their problems. This is how the Tanzania Data Lab was created. It started with a female Tanzanian student taking a few days of training at the Lab to learn about open data. She worked with data collected and shared by the government which included demographics of local schools. She applied for an innovation grant to use this data to focus on the problem of girls in Tanzania dropping out of school. This gave her the knowledge and resources to apply her creativity, and she was able to come up with a predictive analytics model to show which locations have the most likely probability of girls dropping out of school early. She wanted to use this to enact a plant to proactively prevent this.
+
+####This shows the importance of data and how it empowered one Tanzanian woman to make a big change in her country. But, data alone is useless if it cannot be analyzed and used to create insights. At the Tanzania Data Lab, Tanzanians then came together to focus on HIV and AIDS. Data was used to identify HIV/AIDS hot-spots and then an intervention program was designed to more effectively combat the problem. This enabled the people to increase the effectiveness of impacting HIV/AIDS.
+
+###Conclusion
+#### In conclusion, these successes were enabled by the ability of the Tanzania Data Lab to engage the community and encourage collaboration. In general, we need to rethink the way we communicate data and move toward practical ways that relate with the people when trying to educate people to use data science. when it comes to empowering countries to lead their own development, it is important to be inclusive and incorporate data creatively into the cultural values like art and music. Lastly, partnerships are vital. The Tanzania Data Lab is a partnership with the DSI at UVA and is a collaboration with a local Tanzanian university, where the first masters in data science was launched in East Africa. 
+
+###Questions
+####The general nature of this presentation left me wondering exactly how the Tanzanian citizens were taught data science, and how exactly they used it to combat the rise of HIV/AIDS and the school drop-out rate of females. I would like to know how the government collected the data, what the data actually looked like, and more specifically how it was utilized by the people to work toward solving these issues.
+
+##Presentation 3: Open Data and Active Democratic Engagement by Sean Ferguson
+
+###Summary
+#### Professor Ferguson is my STS 4500 professor this semester, and from class I have learned that his research is centered around exploring the way the United States has historically tackled getting citizens the information they need to operate in our data-centric society today. His presentation was a more detailed explanation of his research and investigating if and how the public can be actively trained to think like a scientist or engineer and in turn utilize data. There is controversy and backlash surrounding this, but there is also a strong desire to have collaboration between science and the general public.
+
+####This collaboration means people need to come up with a way to get citizens involved. This entails figuring out people's motivations and why someone would want to spend time and energy becoming informed. In order to do this, the conversation and motivation need to be centered around caring. People need to care about why data has social and political power and get a deep sense that data will support the community as a tangible product of their labor. 
+
+####An example of citizen involvement with data here in Charlottesville is the Charlottesville Open Data Portal. This data portal was started to create an opportunity for the smart citizens of Charlottesville to take some of the data and actually do smart things with it such as perform analysis and arrive at conclusions or insights. However, it was discovered by analyzing the usage of the website that the citizens actually do very little with the data.
+
+####But, it is important to get the citizens to actually do something with this data because data can help us examine the city's status quo, identify problems, and even guide policymaking. The CVille Data Portal is really just a platform for citizens to care about themselves, advocate for what citizens might need, and help build a better government. By having all of this data, we can take bad things we see in it and make changes to actually shape the nature of the future data, or the data can shape us if we do nothing with it.
+
+####Two critical aspects of handling data are openness and collaboration. But, open data is complex and it is impossible to instantly make the entire population data literate. All that can be utilized is what readily exists, which is the abilities of the current population. There is also a need for a better mechanism for collaboration that does not rely on random, separate efforts of the citizens. Therefore, to bring people together and unite them all under one idea it may be useful to make the mission more about making one's voice heard, or even about fun or creativity.
+
+###Conclusion
+####In conclusion, although we sometimes see data as a thing that simply exists and is available in the world, it is useless on its own and needs to be turned into insights to be meaningful. Additionally, we may actually need to fight for the data more than we think because data in a lot of cases actually isn't that easy to acquire. Some data takes years of effort to acquire, but it is possible if people care enough to do it. If people find a story that they care about or a problem that they really care about solving, the data collection will follow. Overall, this is a lot of work and it can be difficult or confusing, but it is possible and the potential benefit is enormous.
+
+###Questions
+####How much can data influence policy making? I wonder what data is available in the CVille data portal that has the potential to actually be analyzed in order to make informed decisions in government and policy. What could Charlottesville look like if the relevant data was analyzed and used to persuade people to enact a certain policy or eliminate a harmful one?
+
+#Part 3: Tech Talks
+
+##Speaker Names and Affiliations:
+####1. Miriam Friedel, Data Science Expert, Metis Machine (Charlottesville Data Scince Startup)
+####2. Priscilla Alexander, Machine Learning Specialist, Capital One
+
+##Presentation 1: You have machine learning. Now what? By Miriam Friedel
+###Summary
+####Metis machine is a local Charlottesville startup with a mission to derive value from data. Just like most other organizations, the company has a lot of data and more if it is continuously being created by social media. But, data itself is not useful. Machine learning and AI are potential solutions to making data useful and deriving value from it. But, there are challenges in deriving organizational value form machine learning (ML) which prevents ML from living up to its hype at most companies.
+
+####One challenge in ML is the machine learning pipeline. Data must be gathered from different sources, cleaned, trained to a model, delivered into an application, and monitored. But, these are the minimum steps to utilizing data and the process can be much more lengthy and complicated. This pipeline is also iterative. It happens in multiple phases and requires many people to successfully carry out the process.
+
+####More problems arise from focusing on algorithms that make models that do not solve the problems you want it to. The root of this lies in the difference between a business model and solving business problems. Often times there is a lack of organizational fit when companies hire data scientists but do not know what to do with them. Data scientists need a definitive problem statement and also need to be involved with lots of other people, departments, and teams within a company.
+
+####There is also a problem that exists that Miriam described as the "rickety bridge problem" which arises from hidden technical debt in machine learning systems. This is because any technical solution has technical debt, and it is desirable to minimize this technical debt. But, machine learning actually has a different associated type of technical debt than other solutions. In machine learning, different people own different pieces of the "bridge" that is built by doing machine learning, so if something goes wrong it is hard to track down. 
+
+####Miriam then proposed the solution to the problem of operationalization through microservices, which is what Metis Machine actually does. Operationalization is the process that bridges the gap between building and employing a model. This starts with data gathering, but it is critical to simultaneously think about DevOps (deploying and monitoring the model) during the process of data gathering. This helps bridge the gap by thinking about the end goal while performing the beginning steps.
+
+####Microservices is a best practice in software engineering where instead of putting everything into a single process, several microservices are created that interact with each other. This is beneficial for building robust applications. Metis Machine leverages software engineering best practices including microservices. They do this by integrating data scientists into agile teams instead of trying to work the software engineering department around the data scientists. At Metis Machine, the data scientists are embedded into each of the scrum teams.
+
+####There are clear benefits from operationalization including the way it prioritizes practice over theory. By doing this, it shows a more accurate representation of how the model will perform in the real world and therefore the models are more scientifically robust. With microservices and agile, it is easier to iterate rapidly with lots of small pieces. This creates models that are scalable and maintainable because it is easier to leverage the right skills at the right time and provides the ability to organize code around business capabilities.
+
+####However, a microservices approach and operationalization focus is not enough. Choosing the right platform is also essential. When considering platforms, a  company can build one themselves but this is not always the right choice. The right platform will have scalability of models and data. It will also have uniform and visible processes and workflows. Lastly, it will have monitoring ability to see if the model is good by seeing if the model evolves with time. Eventually, a model will degrade with time because the world is constantly changing, and monitoring this change can help adjust models and make them better. In combination, doing all of this will eliminate the presence of a "rickety bridge."
+
+####There are many challenges to overcome when a company tries to build its own platform. First, it's a rabbit hole, where one can encounter several roadblocks because as the saying goes, "you don't know what you don't know." Second, ML models have a unique cycle that distinguishes them from agile processes because they have different technical requirements. Third, building a model and deploying the model are not the same thing. Even if the model is built and it is theoretically amazing, this is just the beginning of the process. Fourth, building a platform is a huge investment. Some examples of companies who have built their own platforms are Uber (the Michaelangelo platform) and AirBnB (the Big Head platform). In these cases, these companies are doing a lot of machine learning but they are not selling any part of it because it is their secret technology. In general, businesses show a lot of interest in building their own platforms. but it is challenging and time-consuming.
+
+####The heart of Metis Machine is actually its own platform called Skafos which was built to fix the existing challenges in ML pipelines. The abilities of Skafos focuses on taking a model and delivering it into a product.
+
+###Conclusion
+####In conclusion, failure with ML is often a result of organizational and technical issues. When a company is doing machine learning it is important to organize the data science team into the most sensible places in the company to ensure that they can collaborate with software developers and other departments. When considering technical issues in ML, it is important to remember that machine learning comes with a unique kind of technical debt and it is desirable to do ML in a way that minimizes that debt. An important strategy to get the most out of machine learning is rearranging to focus on operationalization through microservices.
+
+###Questions
+####This talk was honestly a little bit over my head given my current knowledge of data science, computer science, and software development. This presentation left me with questions concerning the basic operations and utilization of ML. Some of these questions specifically pertain to the work of Metis Machine, such as what their platform has actually been used to do for one of their clients. I found the description of Metis Machine to be quite vague and I would love to know on a basic level some more specifics of what they actually do.
+
+
+##Presentation 2: 7 Lessons Learned in Building Machine Learning Solutions by Priscilla Alexander
+
+###Summary
+####Lesson One: Identify the business problem before deciding ML is a solution.
+Machine learning is surrounded by a lot of hype, but when first examining a business problem it is important to ignore that hype and look at all of the possible solution options. Think first about only the problem you are solving, then afterward think about implementation.  But, this does not necessarily mean that ML is the correct choice. Deterministic models can be used to solve a lot of business problems and this process does not involve ML. It is actually much simpler, but the key variable in using deterministic decision models is time. Given enough time,  deterministic decision models can solve nearly any problems. Therefore, the correct first approach is to try something else first before turning to ML.
+
+####Lesson Two: Teach your business partners about ML...and vice versa.
+Business analysts are actually the secret weapon to understanding the quality and context of data. ML, although powerful, is just a class of algorithms and it comes with its own set of limitations.
+
+####Lesson Three: Don't be afraid to ask data scientists dumb questions.
+Communication is a data scientist's most powerful skill and every data scientists needs to be able to communicate exactly what they did and how they did it. Additionally, they need to understand how to explain things through visualizing data. It is critical for everyone to understand any business assumptions a data scientist made because they are not necessarily correct. Most importantly, even the data scientist may not have all of the answers because everyone is still learning.
+
+####Lesson Four: It takes a village.
+A model is only as valuable as its enclosing system, integration points, people, and processes that need to use it on an ongoing basis. And, a business needs to staff all of these components.
+
+####Lesson Five: Get to production as quickly as possible.
+Once a model is in production this opens the door to discovering all sorts of new features that are needed but not previously thought of. This is enabled by planning agilely and aiming for a proof of concept first. From there, only a "good enough" model is needed. It is also helpful to come up with performance metrics and report on the progress once every one or two weeks. Most importantly, do not forget the "north star." It can be very easy to get caught up in the model and numbers and forget the end goal. It is critical to always check yourself against the end result you actually want to get to.
+
+####Lesson Six: If you don't have the data, you don't have the data.
+There may be a need to first complete an entire project of joining data sets and making sure the data quality is good before trying to use it to solve a problem. A high quality, complete data set is needed before the real work begins.
+
+####Lesson Seven: Don't ever stop learning
+ML is changing so rapidly that new ML methods are constantly emerging. ML is also being commoditized such that sometimes it is better to buy it instead of building it! Business teams need to be aware of third-party options so they can choose one if it makes the most sense.
+
+###Conclusion
+####Data science and machine learning are rapidly evolving processes that people are figuring out along the way as it transforms and changes. This means that there are a lot of different ways to use data science and machine learning, and which way is best depends on the unique application it is used for. Luckily, there are people out there figuring it out and learning from their mistakes to hopefully better teach each new generation of data scientists.
+
+###Questions
+####What if someone is resistant to learning about data science, or oppositely what if someone is insistent on using data science or ML where it does not make sense to do so? Also, it was mentioned that a critical aspect of data science is being able to clearly and effectively communicate processes and results. How is this being encouraged or insured when hiring data scientists? 
+
+#Part 4: Keynote Speaker Presentation
+
+##Speaker Name and Affiliation:
+####Robin Thottungal, Chief Technology Officer/ Chief Data Scientist at the National Gallery of Art
+####Presentation title: "Why the U.S. Government Needs You"
+
+##Summary
+####Robin began his presentation by describing several case studies. The first one was centered around global warming and the fact that most of the world's best places for coffee will be gone by 2025. This is due to the location of the "bean belt," which consists of 8 to 10 countries that reside in the perfect climate to cultivate coffee. However, this climate is not so perfect anymore. As the global temperature increases, this region sees larger average temperature increases than the rest of the world. This makes the region no longer favorable for coffee cultivation.
+
+####Climate change is having such a big impact on coffee because due to the higher temperatures a fungus is now able to attack the coffee trees. This same issue is not exclusive to the coffee trees in the Bean Belt; the U.S. is experiencing a similar phenomenon. U.S. farmers are struggling due to global warming because a harmful species of beetle that used to be dormant in the winter is now active in the winter due to the warmer temperatures and can continuously attack the crops year-round. This has created economic asylum seekers, especially from Honduras where the temperature is climbing the most rapidly. Honduran farmers are walking 1000 miles from Honduras to Mexico or the United States to find a different climate because farming is their life and only skill, but they can no longer do it in their home country.
+
+####Data science can help policymakers understand the problem in order to rethink policy in all the different dimensions of consideration. This can be visualized by an example from 1970's America when the EPA was first created. Pollution was painfully obvious in the 1970's. and the EPA asked the American people to take pictures of their environments and send them in so the EPA could track the progress of their environmental clean-up efforts. The results were incredible. Pictures from the 2000's can be compared to pictures of 1970 of the exact same location and the difference is striking. In one side-by-side comparison, Robin showed on the screen, in a 1970's picture of a bridge in NYC the bridge was so clouded in pollution that it was barely visible in the picture. But in the more recent picture, the bridge is extremely clear and the surrounding environment is clean and beautiful.
+
+####From these pictures, it is very easy to understand that we don't want to live how it was in the 1970's. It makes sense that these changes are happening because of the climate. We can then turn to data science for the ability to take these problems and start telling stories and enact the people to care enough to do something about it.
+
+####One way to do this is to use data visualization to drive transparency into complex issues. The facts are that the global temperature has increased by 2 degrees, the ice cap is melting, and the movement of carbon dioxide is affecting our planet. These are just facts, but impactful visualizations can be created using data to better illustrate their importance. Data visualizations exist of the changing ice cap and the carbon dioxide movement cycles around the earth and tell a better story than facts alone. The importance of this is that when the EPA was created in 1970, these environmental problems were easy to see in a picture. But today, these problems are much more complex and are invisible when we look at our environments. But, they can be made visible and more visually impactful through data visualization.
+
+####The US government has to make decisions about this, but it is not a straightforward process. The decision must be optimal, what the people want, and take into account any impact on other countries.
+
+####Many people think that AI is the ultimate solution, but there are many dangers in using AI. People think AI will change policymaking, and they are not wrong, but AI must be used with caution. Robin next presented an example that was mentioned in class to highlight how it is important to be cautious when using AI. A previously popular paper described the creation and use of an ML algorithm that can differentiate between a wolf and a husky at nearly 100% accuracy when presented with pictures. But, when the neural network was further investigated, researchers found that the algorithm was actually just detecting the presence of snow in the picture. Almost all of the pictures of wolves the algorithm was trained with were pictures of wolves out in nature during winter when there was snow on the ground.
+
+####This is similar to an example of the US Government Agency DARPA creating an ML algorithm to differentiate between US army vehicles and Russian tanks. The ML system here was also actually predicting the weather. All of the pictures of the US army vehicles were taken on a green landscape on sunny days, where the Russian photographs were taken in a colder, more wintery climate. This illustrates the importance of understanding potential biases when starting to use AI in decision making.
+
+####Further examples demonstrate that the most important thing a data scientist needs to have is empathy. For example, truck driving is the second most common job for men in the U.S., so 2 million U.S. citizens are truck drivers. Autonomous trucks would save the industry 300 billion dollars. But, this would not be an empathetic decision because 2 million people would lose their jobs. Similarly, 16 million people work in retail. "Just walk out" technology on products in stores aims to eliminate the need for cashiers. But, towns exist where a significant portion of the population has jobs in the retail industry and makes their living this way. Whatever data science is used to do, it needs to be used ethically and empathetically.
+
+##Conclusion
+####In conclusion, data science is an extremely powerful tool that can be used to captivate audiences and help them visualize something through data that cannot be seen otherwise. This can help the U.S and other countries create beneficial policies and make good changes. However, data science must be used with caution and deeply investigated to verify the truth of the results. Additionally, data science has the potential to be used in harmful ways if empathy is not a deciding factor in enacting the results of data analysis to make a change.
+
+##Questions
+####In the cases of AI being used to replace millions of American jobs, what can be done about this? The implementation of these jobs discussed would provide positive effects to others but negative effects on those whose jobs it replaces. How can we move forward with implementing AI technology and still be empathetic and ethical?
+
+#Overall Thoughts and Conclusion
+####I enjoyed Datapalooza because it was interesting to hear so many viewpoints on data and data science that were previously unknown to me. I am a novice in data science so it was interesting to see how powerful and impactful it can be when used correctly.
+
+####I also thought that some of the subject matter discussed was a little over my head due to my limited knowledge of the industry. This was especially apparent during the Tech Talk presentations. Since these presentations were given by data scientists who are experts in their field much of what they discussed was like listening to a foreign language, especially the presenter from Metic Machine who spoke on some more advanced details of machine learning.
+
+####The organization of the event was also good. I liked how for the Research Highlights and Tech Talks / Skills workshops they had a ton of options each held in smaller separate rooms so you could choose which one you wanted to attend and be part of a smaller audience. Each part was an appropriate length and there were lots of little breaks between events to get coffee or water and decompress a bit. Although the day was long the spacing of the events and the lunch break in the middle made it a pretty pleasant event.
